@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+echo "Precompiling scripts..."
+rm -rf dist
+babel . --optional runtime --ignore node_modules --out-dir dist
+echo "Done! Look at dist/"

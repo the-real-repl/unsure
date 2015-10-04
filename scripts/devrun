@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+nodemon --exec npm start
